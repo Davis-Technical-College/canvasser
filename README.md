@@ -25,7 +25,6 @@
 >> Replace:
 >> ```
 >>"dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
->> 
 >> ```
 >> with:
 >> ```

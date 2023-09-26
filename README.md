@@ -20,6 +20,17 @@
 >> ```
 >> "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 >> ```
+### If you are using a version prior to Node 17:
+>>Update the package.json file.
+>> Replace:
+>> ```
+>>"dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
+>> 
+>> ```
+>> with:
+>> ```
+>> "dev": "next dev",
+>> ```
 
 Update the Node Module:
 ```

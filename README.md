@@ -1,4 +1,15 @@
 ## Getting Started
+### Check if Node.js is installed: 
+> Run this command in Command Prompt (Windows) / Terminal (Linux):
+> ```
+> node -v
+> ```
+> If outputs is similar to this:
+>> ```
+>> 'node' is not recognized as an internal or external command, operable program or batch file.
+>> ```
+>> Download Node.js from [nodejs.org/en/download](https://nodejs.org/en/download)
+> ### Open package.json in VSC
 ### If you are using Node 17+:
 > #### Windows:
 >> Update the package.json file to use a legacy openssl format.
@@ -20,6 +31,10 @@
 >> ```
 >> "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 >> ```
+
+Open Visual Studio Code's integrated terminal:
++ Right-click package.json file and select *open in integrated terminal*.
++ Or use the keyboard shortcut *Cntrl + ` (backtick)*.
 
 Update the Node Module:
 ```

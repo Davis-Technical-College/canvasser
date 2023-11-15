@@ -10,6 +10,15 @@
 >> ```
 >> Download Node.js from [nodejs.org/en/download](https://nodejs.org/en/download)
 > ### Open package.json in VSC
+>> Verify that you have both Node.js and npm installed properly
+>> Rerun this command in Command Prompt (Windows) / Terminal (Linux) to verify Node.js is installed:
+>>> ```
+>>> node -v
+>>> ```
+>> Run this command in Command Prompt (Windows) / Terminal (Linux) to verify npm is installed:
+>>> ```
+>>> npm -v
+>>> ```
 ### If you are using Node 17+:
 > #### Windows:
 >> Update the package.json file to use a legacy openssl format.

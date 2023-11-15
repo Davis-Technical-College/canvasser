@@ -25,7 +25,7 @@
 >> Update the package.json file to use a legacy openssl format.
 >> Replace:
 >> ```
->> "dev": "next dev",
+>> "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 >> ```
 >> with:
 >> ```

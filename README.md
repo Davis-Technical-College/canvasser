@@ -25,7 +25,7 @@
 >> Update the package.json file to use a legacy openssl format.
 >> Replace:
 >> ```
->> "dev": "next dev",
+>> "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 >> ```
 >> with:
 >> ```
@@ -79,6 +79,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+To learn more about npm, take a look at the following resource:
+- [npm Documentation](https://docs.npmjs.com/about-npm)
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

@@ -4,7 +4,7 @@
 > ```
 > node -v
 > ```
-> If outputs is similar to this:
+> If output is similar to this:
 >> ```
 >> 'node' is not recognized as an internal or external command, operable program or batch file.
 >> ```

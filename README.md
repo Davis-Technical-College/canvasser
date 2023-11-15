@@ -19,7 +19,7 @@
 >>> ```
 >>> npm -v
 >>> ```
->>> If there is no output when you run the above command, and you have installed Node.js, download npm from [docs.npmjs.com/about-npm](https://docs.npmjs.com/about-npm)
+>>> If there is no output when you run the above command, and you have installed Node.js, download npm from [docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 ### If you are using Node 17+:
 > #### Windows:
 >> Update the package.json file to use a legacy openssl format.

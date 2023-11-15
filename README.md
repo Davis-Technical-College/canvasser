@@ -4,18 +4,28 @@
 > ```
 > node -v
 > ```
-> If outputs is similar to this:
+> If output is similar to this:
 >> ```
 >> 'node' is not recognized as an internal or external command, operable program or batch file.
 >> ```
 >> Download Node.js from [nodejs.org/en/download](https://nodejs.org/en/download)
 > ### Open package.json in VSC
+>> Verify that you have both Node.js and npm installed properly
+>> Rerun this command in Command Prompt (Windows) / Terminal (Linux) to verify Node.js is installed:
+>>> ```
+>>> node -v
+>>> ```
+>> Run this command in Command Prompt (Windows) / Terminal (Linux) to verify npm is installed:
+>>> ```
+>>> npm -v
+>>> ```
+>>> If there is no output when you run the above command, and you have installed Node.js, download npm from [docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 ### If you are using Node 17+:
 > #### Windows:
 >> Update the package.json file to use a legacy openssl format.
 >> Replace:
 >> ```
->> "dev": "next dev",
+>> "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
 >> ```
 >> with:
 >> ```
@@ -68,6 +78,9 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about npm, take a look at the following resource:
+- [npm Documentation](https://docs.npmjs.com/about-npm)
 
 ## Deploy on Vercel
 

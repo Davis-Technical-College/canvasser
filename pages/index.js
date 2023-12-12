@@ -10,11 +10,8 @@ import {
     CssBaseline,
 } from "@material-ui/core";
 
-import Nav from "../components/nav.js";
-// import Authorize from "../components/authorize.js";
-// import Queue from "../components/queue.js";
-// import Notifications from "../components/notifications.js";
-import Error from "../components/error.js";
+
+
 
 // import styles from '../styles/Index.module.css'
 
@@ -27,14 +24,7 @@ export default function Index() {
     const [notifications, setNotifications] = useState(false);
     const [error, setError] = useState(false);
 
-    useEffect(() => {
-        if (localStorage.getItem("canvasUrl"))
-            setCanvasUrl(localStorage.getItem("canvasUrl"));
-        if (localStorage.getItem("apiKey"))
-            setApiKey(localStorage.getItem("apiKey"));
-        if (canvasUrl && apiKey) setAuthorized(true);
-        if (!("Notification" in window) || Notification.permission === "granted") setNotifications(true)
-    });
+
 
     // https://material.io/design/color/the-color-system.html#tools-for-picking-colors
     // https://material-ui.com/customization/color/#playground
@@ -76,24 +66,8 @@ export default function Index() {
                 />
             </Head>
             <CssBaseline />
-            {/* <Authorize
-                authorized={authorized}
-                setAuthorized={setAuthorized}
-                canvasUrl={canvasUrl}
-                setCanvasUrl={setCanvasUrl}
-                apiKey={apiKey}
-                setApiKey={setApiKey}
-            /> */}
-            <Nav
-                authorized={authorized}
-                setAuthorized={setAuthorized}
-                canvasUrl={canvasUrl}
-                setCanvasUrl={setCanvasUrl}
-                apiKey={apiKey}
-                setApiKey={setApiKey}
-                darkMode={darkMode}
-                setDarkMode={setDarkMode}
-            />
+  
+
 
             <main style={{ marginLeft: "30px" }}>
                 <h1>Updated Version Available</h1>

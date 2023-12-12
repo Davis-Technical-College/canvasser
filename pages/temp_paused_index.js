@@ -13,7 +13,6 @@ import Authorize from "../components/authorize.js";
 import Queue from "../components/queue.js";
 import Notifications from "../components/notifications.js";
 import Error from "../components/error.js";
-import OutOfOrderMessage from "../components/outofordermessage.js";
 
 // import styles from '../styles/Index.module.css'
 

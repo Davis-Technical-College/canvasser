@@ -86,7 +86,7 @@ export default function Nav(props) {
         <AppBar className={classes.bar} position='static'>
             <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                    Canvasser
+                    Canvasser - Old Version
                 </Typography>
                 <IconButton 
                     onClick={() => props.setDarkMode(!props.darkMode)}

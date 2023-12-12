@@ -92,7 +92,7 @@ export default function Index() {
         setDarkMode={setDarkMode}
       />
 
-      {/* <Container>
+      <Container>
 
         {error ? <Error /> : null}
         {authorized && !notifications ? (
@@ -110,12 +110,7 @@ export default function Index() {
         ) : (
           <></>
         )}
-      </Container> */}
-      <OutOfOrderMessage />
-      <main>
-        <h1>Canvasser</h1>
-        <p>This is the main page.</p>
-      </main>
+      </Container>
     </ThemeProvider>
 
 
